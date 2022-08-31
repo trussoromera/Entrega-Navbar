@@ -4,16 +4,29 @@ import './styles.scss';
 
 // aca pongo props pero se le puede poner cualquier nombre
 
-const NavBar = ({categories , temp = "10"}) => {
+const NavBar = () => {
   
   
   
   return (
-    <div>
-      <p>Navbar</p>
-      <p>{temp}°C</p>
+      <ul>
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">Kitesurf</a>
+        </li>
+        <li>
+          <a href="">Windsurf</a>
+        </li>
+        <li>
+          <a href="">Nosotros</a>
+        </li>
+        
       <CartWidget/>
-    </div>
+
+      </ul>
+    
     
     
   )
